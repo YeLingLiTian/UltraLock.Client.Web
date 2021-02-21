@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+                width:500px;height:400px;margin:160px 550px;
+        }
+        .text {
+            font-size: 25px;
+            color:dimgrey
+        }
+
+        .board1 {
+            height: 35px;
+            width: 250px
+        }
+        body{
+            background-size:1900px 1000px;
+        }
+        .lgbutton{
+            margin:20px 150px;
+            background-color: aqua;
+            color: aliceblue;
+            width:120px;height:40px
+        }
+    </style>
+</head>
+
+<body background="img/bk.png">
+    <img src="img/lg.png" width="100%">
+    <form>
+    <div class="big_board1">
+        <span class="text"><strong>用户名:</strong></span>
+        <input class="board1" type="text" value="" placeholder="只能输入字母或数字，4-16个字符" autocomplete="off">
+    </div>
+</br></br>
+    <div class="big_board2">
+        <span class="text"><strong>密&nbsp;&nbsp;&nbsp;码:</strong></span>
+        <input class="board1" type="text" value="" placeholder="密码长度6-12位" autocomplete="off">
+    </div>
+    <div class="button">
+        <input class="lgbutton"type="submit"value="登录" > 
+    </div>
+</form>
+</body>
+
+</html>
